@@ -3,23 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NodeChats</title>
+
+    <!-- Favicon Links -->
+    <link rel="shortcut icon" href="https://idevolusi.com/assets/images/logo-kecil2-128x128.png" type="image/x-icon">
+
+    <!-- The JavaScripts -->
     <script src="/socket.io/socket.io.js"></script>
     <script src="/js/jquery.min.js"></script>
+
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/pulse/bootstrap.css" media="screen">
+    <!-- Local CSS -->
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>NodeChats</title>
+    
   </head>
   <body>
-    <h4>NodeChats v1</h4>
 
-    <div id="chat-container"></div>
-    <textarea id="chat-input"></textarea>
+      <div class="container">
+            <h4>NodeChats v1</h4>
+            <div class="alert alert-dismissible alert-primary" id="chat-container"></div>
+            <textarea class="form-control" id="chat-input" rows="3"></textarea>
+        </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <!-- <script src="js/popper.min.js"></script> -->
+    <!-- Chat's Script -->
     <script src="/js/chat.js"></script>
   </body>
 </html>

@@ -14,5 +14,5 @@ $('#chat-input').keydown(function(event) {
 
 // Receive chat message from server.
 socket.on("chat-message", function(message) {
-    $("#chat-container").append(message + "<br />")
+    $("#chat-container").append("- " + message + "<br />")
 });
