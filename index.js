@@ -21,3 +21,11 @@ server.listen(process.env.PORT || 3000, () => console.log('Server are now Listen
 app.get('/', (req, res) => {
     res.render('Chat');
 });
+
+
+// Web Socket Configurations
+io.sockets.on('connection', (socket) => {
+    socket.on('chat-message', (message) => {
+        io.sockets.emit('chat-message', message);
+    });
+});
