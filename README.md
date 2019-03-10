@@ -41,3 +41,6 @@ to Run the Application just typing this command on your Terminal
       or
       - npm start
 
+### ScreenShoot
+
+![Dashboard](public/img/captured.png "This is the Home chat's captured")
