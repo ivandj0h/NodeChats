@@ -20,5 +20,24 @@ if you are interested in developing or improve it, feel free to download or clon
 
 if you want to automatically restarting the node application when file changes in the directory 
 are detectedyou then can add more dependencies like Nodemon & save it into devDependencies
+      
+      using NPM
+      - npm install nodemon --save-dev
+      
+      using YARN
+      - yarn add nodemon --dev
+      
+or you can install nodemon globally on your computer so you can access it anywhere on your terminal
 
-      - npm install --save-dev nodemon
+      - yarn global add nodemon
+      or
+      - npm install nodemon -g
+
+## Run Application
+
+to Run the Application just typing this command on your Terminal
+
+      - nodemon index.js
+      or
+      - npm start
+
