@@ -3,28 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
     <title>NodeChats</title>
   </head>
   <body>
     <h4>NodeChats v1</h4>
 
-    <div id="chat-container">
-
-    </div>
-    <div id="chat-input">
-
-    </div>
+    <div id="chat-container"></div>
+    <textarea id="chat-input"></textarea>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/chat.js"></script>
+
+    <!-- <script src="js/popper.min.js"></script> -->
+    <script src="/js/chat.js"></script>
   </body>
 </html>
